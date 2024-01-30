@@ -1,0 +1,27 @@
+.links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.8em;
+}
+
+.navbar {
+    background-color: rgb(53, 53, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-block: 1em;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+#cart-icon {
+    display: flex;
+    align-items: center;
+}
