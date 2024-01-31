@@ -6,7 +6,7 @@ function Shop() {
   return (
     <div className="shop">
         <div className="shop-title">
-            <h1>PedroTech Shop</h1>
+            <h1>E-commerce Site</h1>
         </div>
         <div className="products">
             {PRODUCTS.map((product)=> <Product data={product} />)}
